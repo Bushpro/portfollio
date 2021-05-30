@@ -1,0 +1,110 @@
+
+
+@media screen and (min-device-width: 980px){
+
+		.menu, .close {
+		display: none;
+	}
+
+	  .profile0 {
+	  	display: none;
+	  }
+
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper {
+	min-height: 100vh;
+	background: url("imgs/profile0.JPG");
+	background-position: center;
+	background-repeat:  no-repeat;
+	background-attachment:  fixed;
+	background-size: cover;
+	color: #fff;
+}
+
+.wrapper-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10rem);
+    height: 100vh;
+}
+.nav {
+	  	display: flex;
+	  	justify-content: space-between;
+	  	align-items: center;
+	  	padding: 3rem 0rem 1rem;
+	  	margin: 0 auto;
+	  	position: relative;
+	  }
+.ul {
+	  	display: flex;
+	  	position: static;
+	  	justify-content: space-between;
+	  	align-items: flex-start;
+	  	flex-direction: row;
+	  	visibility: visible;
+	  	background: none;
+	  	order: 3;
+	  	width: 60%;
+	  	padding-top: 5.5rem;
+	  }
+.logo {
+	order: 2;
+	padding-right: 0rem;
+}
+
+.mode-container {
+    order: 1;
+    padding-left: 0rem;
+}
+.ul a, .logo a {
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+.showcase {
+	margin: 0 auto;
+	text-align: center;
+	align-items: center;
+	padding-top: 1rem;
+	font-size: 2rem;
+}
+.smile {
+	width: 5rem;
+	position: absolute;
+	top: 20rem;
+	right: -1.8rem;
+	transition: transform 800ms;
+}
+.alt-smile {
+	transform: rotate(180deg);
+	left: 1rem;
+	top: 1rem;
+}
+.smile:hover{
+	transform: rotate(180deg);
+	cursor: pointer;
+}
+.alt-smile:hover{
+	transform: rotate(360deg);
+}
+.hello {
+	font-size: 2rem;
+	letter-spacing: 23px;
+}
+.bush {
+	font-size: 3rem;
+	letter-spacing: normal;
+}
+.lead {
+	font-size: 1.5rem;
+}
+
+
+
+}  
