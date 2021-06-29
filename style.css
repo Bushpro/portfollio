@@ -126,7 +126,7 @@ body {
 
 .wrapper {
     min-height: 100vh;
-    background: url("imgs/profile0.JPG");
+    background: url("profile0.JPG");
     background-position: center;
     background-repeat:  no-repeat;
     background-attachment:  fixed;
@@ -221,7 +221,7 @@ body {
 }
 .wrapper {
     min-height: 100vh;
-    background: url("imgs/profile0.JPG");
+    background: url("profile0.JPG");
     background-position: center;
     background-repeat:  no-repeat;
     background-attachment:  fixed;
